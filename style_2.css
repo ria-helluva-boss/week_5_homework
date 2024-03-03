@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    min-height: 100vh;
+  }
+  .flexcontainer {
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(138, 16, 16);
+    height: 25vh;
+  }
+  .h1 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    color: antiquewhite;
+    
+  }
+  .navigation {
+    display: flex;
+    gap: 10px;
+  }
+
+  .menu {
+    padding: 5px 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    border: none;
+    color: rgb(138, 16, 16);
+    background-color: antiquewhite;
+    border-radius: 7px;
+  }
+  main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    height:85vh;
+    background-color: rgb(163, 36, 36);
+  }
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 250px;
+    height: 250px;
+}
+    .button_box{
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-size: 13px;
+    color: rgb(163, 36, 36);;
+    border: none;
+    background-color: antiquewhite;
+    border-radius: 7px;
+    
+  }
+  .button_box:hover{
+    background-color: rgb(100, 18, 40);
+    color: azure;
+    padding: 8px 13px ;
+  }
+  .box:hover{
+    box-shadow: 0 0 30px rgb(94, 24, 24);
+}
+  .menu:hover{
+    color:rgb(198, 4, 49); ;
+  }
+  .menu:active{
+    background-color: rgb(100, 18, 40);
+    color: azure;
+  }
+#one{
+    background-image: url(assets/image/1.jpg);
+}
+#two{
+    background-image: url(assets/image/2.jpg);
+}
+#three{
+    background-image: url(assets/image/3.jpg);
+}
+#four{
+    background-image: url(assets/image/4.jpg);
+}
+#five{
+    background-image: url(assets/image/5.jpg);
+}
+#six{
+    background-image: url(assets/image/6.jpg);
+}
