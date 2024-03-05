@@ -16,6 +16,7 @@
     align-items: center;
     background-color: rgb(138, 16, 16);
     height: 25vh;
+    flex-wrap: wrap;
   }
   .h1 {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
